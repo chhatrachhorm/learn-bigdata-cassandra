@@ -99,7 +99,5 @@ if not exists;
 CREATE MATERIALIZED VIEW employee_by_id_name 
 AS SELECT * FROM employee_by_id
 WHERE name IS NOT NULL
-PRIMARY KEY (name, id);
- 
-
+PRIMARY KEY (name, id); 
 ```

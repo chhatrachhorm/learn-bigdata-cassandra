@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee9df26a-5350-4c01-af54-428a045694aa" name="Default Changelist" comment="" />
+    <list default="true" id="ee9df26a-5350-4c01-af54-428a045694aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cassandra/data_definition.md" beforeDir="false" afterPath="$PROJECT_DIR$/cassandra/data_definition.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,25 +30,28 @@
     <session id="-731409098">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="4" />
+          <entry key="markdown" value="1" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -65,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/cassandra/data_manipulation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="496">
-                <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,9 +83,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cassandra/data_definition.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="734">
-                <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="391">
+                <caret line="23" column="30" selection-end-line="102" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cassandra/install.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor>
+                <caret selection-end-line="10" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,6 +105,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,6 +138,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,11 +146,15 @@
               <item name="BigData" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigData" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BigData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigData" type="462c0819:PsiDirectoryNode" />
+              <item name="cassandra" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,16 +195,18 @@
       <workItem from="1552411347607" duration="558000" />
       <workItem from="1552450838113" duration="593000" />
       <workItem from="1552829361711" duration="9797000" />
+      <workItem from="1552917398528" duration="1702000" />
+      <workItem from="1553090374726" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19013000" />
+    <option name="totallyTimeSpent" value="20751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,11 +243,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cassandra/install.md">
+    <entry file="file://$PROJECT_DIR$/cassandra/data_manipulation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
@@ -226,19 +255,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cassandra/data_definition.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="734">
-            <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="391">
+            <caret line="23" column="30" selection-end-line="102" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cassandra/data_manipulation.md">
+    <entry file="file://$PROJECT_DIR$/cassandra/install.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="496">
-            <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state split_layout="SECOND">
+          <first_editor>
+            <caret selection-end-line="10" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
